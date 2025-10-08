@@ -1,5 +1,5 @@
 # 📈 Forecasting Sales Revenue Using LSTM Models
-
+![Revenue Forecast Visualization](https://github.com/user-attachments/assets/6a1479b9-8069-4b04-aff9-1799525350d0)
 > A predictive model for Kontakt Home's 2020 revenue using historical sales data and LSTM neural networks.
 
 ---
@@ -28,7 +28,7 @@ The research simulates predictions assuming no external disruptions (e.g., COVID
 
 ## 📊 Results
 
-![Revenue Forecast Visualization](https://github.com/user-attachments/assets/6a1479b9-8069-4b04-aff9-1799525350d0)
+
 
 - The model provides a reasonable approximation of monthly sales trends.  
 - Highlights the importance of accounting for **external factors** to improve predictive accuracy.  
@@ -49,13 +49,4 @@ The research simulates predictions assuming no external disruptions (e.g., COVID
 - **Environment:** Jupyter Notebook  
 - **Libraries:** `numpy`, `pandas`, `tensorflow`, `matplotlib`, `seaborn`  
 
----
 
-## 📂 Repository Structure
-
-```text
-Forecasting-Sales-Revenue-Using-LSTM-Models/
-├─ data/               # Raw and processed sales datasets
-├─ notebooks/          # Jupyter notebooks with analysis and modeling
-├─ models/             # Saved LSTM models
-├─ README.md           # Project documentation
