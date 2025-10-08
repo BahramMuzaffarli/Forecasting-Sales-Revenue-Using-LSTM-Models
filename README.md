@@ -1,2 +1,61 @@
-# Forecasting-Sales-Revenue-Using-LSTM-Models
-The aim of this thesis is to develop a predictive model for forecasting the 2020 revenue of Kontakt Home, a major retailer in Azerbaijan, using historical sales data from 2018 and 2019. The Long Short-Term Memory (LSTM) neural network, a time-series forecasting technique, was employed due to its capacity to capture temporal dependencies and nonlinear trends. The research simulates predictions assuming no external disruptions, such as the COVID-19 pandemic, which significantly impacted 2020 sales. The thesis evaluates the performance of the LSTM model in predicting monthly revenue across various stores and product categories, using performance metrics such as Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE). Results indicate that while the LSTM model captured general sales patterns, it struggled during periods of high volatility, especially in mid-2020. The study concludes that predictive models like LSTM can be valuable tools for retail revenue forecasting, though additional external factors must be considered to improve accuracy. The findings provide practical insights for Kontakt Home in terms of inventory management, marketing strategy, and customer segmentation, while also outlining potential avenues for future research to enhance predictive accuracy in dynamic retail environments.
+# 📈 Forecasting Sales Revenue Using LSTM Models
+
+> A predictive model for Kontakt Home's 2020 revenue using historical sales data and LSTM neural networks.
+
+---
+
+## 📝 Project Overview
+
+The aim of this thesis is to **forecast the 2020 revenue of Kontakt Home**, a major retailer in Azerbaijan, using **historical sales data from 2018 and 2019**.  
+
+The **Long Short-Term Memory (LSTM)** neural network was employed due to its ability to capture temporal dependencies and nonlinear trends in time-series data.
+
+The research simulates predictions assuming no external disruptions (e.g., COVID-19) and evaluates the **monthly revenue forecasts** across various stores and product categories.
+
+---
+
+## ⚙️ Methodology
+
+- **Data:** Sales data from 2018–2019  
+- **Model:** LSTM (Long Short-Term Memory)  
+- **Evaluation Metrics:**  
+  - Root Mean Squared Error (RMSE)  
+  - Mean Absolute Error (MAE)  
+
+> The LSTM model captures general sales patterns but struggles during periods of high volatility, particularly mid-2020.
+
+---
+
+## 📊 Results
+
+![Revenue Forecast Visualization](https://github.com/user-attachments/assets/6a1479b9-8069-4b04-aff9-1799525350d0)
+
+- The model provides a reasonable approximation of monthly sales trends.  
+- Highlights the importance of accounting for **external factors** to improve predictive accuracy.  
+
+---
+
+## 🔍 Insights & Applications
+
+- **Inventory Management:** Better stock planning based on predicted demand  
+- **Marketing Strategy:** Targeted promotions according to forecasted trends  
+- **Customer Segmentation:** Understanding sales behavior per store and category  
+
+---
+
+## 🛠️ Tools & Environment
+
+- **Language:** Python  
+- **Environment:** Jupyter Notebook  
+- **Libraries:** `numpy`, `pandas`, `tensorflow`, `matplotlib`, `seaborn`  
+
+---
+
+## 📂 Repository Structure
+
+```text
+Forecasting-Sales-Revenue-Using-LSTM-Models/
+├─ data/               # Raw and processed sales datasets
+├─ notebooks/          # Jupyter notebooks with analysis and modeling
+├─ models/             # Saved LSTM models
+├─ README.md           # Project documentation
